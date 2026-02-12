@@ -1,7 +1,6 @@
 public class FirstApp{
 	public static void main(String[] args){
 		int a = 2;
-		int b = 3;
-		System.out.println("The area of rectangle is: " + (a*b));
+		System.out.println("The area of square is: " + (Math.pow(a,2)));
 	} 
 }
