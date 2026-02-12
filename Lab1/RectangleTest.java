@@ -16,6 +16,8 @@ public class RectangleTest{
 		// Using methods of the class
 		double area1 = r1.show_area();
 		System.out.println("Area of rectangle 1: " + (area1));
+		double perimeter1 = r1.show_parameter();
+		System.out.println("Parameter of rectangle 1: " + (perimeter1));
 
 		System.out.println();
 		System.out.println();
@@ -37,5 +39,7 @@ public class RectangleTest{
 		// Using methods of the class
 		double area2 = r2.show_area();
 		System.out.println("Area of rectangle 2: " + (area2));
+		double perimeter2 = r2.show_parameter();
+		System.out.println("Parameter of rectangle 2: " + (perimeter2));
 }
 }
