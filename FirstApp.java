@@ -1,5 +1,7 @@
 public class FirstApp{
 	public static void main(String[] args){
-		System.out.println("Hello i am hungry!");
+		int a = 2;
+		int b = 3;
+		System.out.println("The area of rectangle is: " + (a*b));
 	} 
 }
