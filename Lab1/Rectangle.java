@@ -1,4 +1,8 @@
 public class Rectangle{
-	double length = 12.33;
-	double bredth = 16.22;
+	double length;
+	double bredth;
+	
+	double show_area(){
+		return length * bredth;
+	}
 }
