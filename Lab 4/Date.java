@@ -5,9 +5,11 @@ public class Date {
     private Time time;
 
     Date(int day, int month, int year){
-        setDay(day);
-        setMonth(month);
-        setYear(year);
+	this(day, month, year, new Time(1,1,1));
+        // setDay(day);
+        // setMonth(month);
+        // setYear(year);
+	// this.time = new Time(1,1,1);
     }
 
     public Date(int day, int month, int year, Time time) {
@@ -54,5 +56,14 @@ public class Date {
 
     public String getUnversalDateFormat(){
         return String.format("%d-%d-%d",month,day,year);
+    }
+
+    public boolean isEqual(Date other){
+	if (this.day == other.day && this.month== other.month && this.year == other.year){
+		return true;
+	}
+	else {
+		return false;
+	}	
     }
 }

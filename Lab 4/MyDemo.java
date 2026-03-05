@@ -12,6 +12,13 @@ public class MyDemo{
             		System.out.println("Both objects are equal");
         	else
             		System.out.println("Objects are not equal");
+
+		if (p1.isEqual(p2)){
+			System.out.println("These two products are equal on the basis of the date");
+		}
+		else{
+			System.out.println("These two products are not equal on the basis of the date");
+		}
 		 
 	}
 }

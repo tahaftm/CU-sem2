@@ -35,4 +35,13 @@ public class Time {
     public void setHours(int hours) {
         this.hours = hours;
     }
+
+public boolean equals(Time other){
+        if (this.seconds == other.seconds && this.minutes == other.minutes && this.hours == other.hours){
+	    return true;
+	}else{
+	    return false;
+	}
+}
+
 }

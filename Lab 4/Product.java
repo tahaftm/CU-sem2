@@ -166,7 +166,9 @@ public class Product {
                 id, brand, name, category, price, quantity, warrantyMonths, inventoryValue(),expireyDate
         );
     }
-
+	public boolean isEqual(Product other){
+    		return this.id == other.id;
+	}
     public boolean equals(Product other){
         if(this.name.equals(other.name))
             return true;
