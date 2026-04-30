@@ -3,4 +3,8 @@ public class Address{
     Address(String city){
         this.city = city;
     } 
+
+    public Address copy() {
+        return new Address(this.city);
+    }
 }

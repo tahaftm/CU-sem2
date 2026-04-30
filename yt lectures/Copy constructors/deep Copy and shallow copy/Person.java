@@ -9,7 +9,6 @@ public class Person{
     //  Shallow Copy
     public Person(Person obj) {
         this.name = obj.name;
-        this.address = obj.address;
+        this.address = obj.address.copy();
     }
-        
 }

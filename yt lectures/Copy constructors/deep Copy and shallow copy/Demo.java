@@ -19,7 +19,5 @@ public class Demo{
 
         System.out.println(per1.address.city);
         System.out.println(per2.address.city);
-
-
     }
 }
