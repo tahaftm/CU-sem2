@@ -2,7 +2,7 @@ public class Student extends School{
     public int age;
     public String name;
     public Student(){
-        this("Taha");
+        this("Taha",19);
         System.out.println("This is a default constructor of Student class");
     }
     public Student(String name){
