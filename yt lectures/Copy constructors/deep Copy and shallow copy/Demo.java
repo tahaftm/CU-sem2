@@ -14,7 +14,7 @@ public class Demo{
 
         System.out.println(per1.address.city);
         System.out.println(per2.address.city);
-
+ 
         per1.address.city = "Los Angeles";
 
         System.out.println(per1.address.city);
