@@ -6,7 +6,7 @@ public class Nested{
     public class Inside {
         String msg_in = "I am inside";
     public void greetings(){
-        System.out.println("Hello from inside");
+        System.out.println("Hello from outside");
     }
     }
 }
