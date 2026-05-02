@@ -3,10 +3,13 @@ public class Nested{
     public void greetings(){
         System.out.println("Hello from outside");
     }
-    public class Inside {
+    static class Inside {
         String msg_in = "I am inside";
-    public void greetings(){
-        System.out.println("Hello from outside");
-    }
+        public void greetings(){
+            System.out.println("Hello from inside");
+        }
+        public static void static_greetings(){
+            System.out.println("Hello from static inside");
+        }
     }
 }

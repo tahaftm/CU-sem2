@@ -9,9 +9,12 @@ public class Demo{
     // }
 
     // Working with functions
-            Nested out = new Nested();
-            Nested.Inside in = out.new Inside();
-            out.greetings();
-            in.greetings();
+            // Nested out = new Nested();
+            // Nested.Inside in = out.new Inside();
+            // out.greetings();
+            // in.greetings();
+
+    // Working with static functions
+            Nested.Inside.static_greetings();
     }
 }
