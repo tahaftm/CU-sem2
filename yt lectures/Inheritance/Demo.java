@@ -12,7 +12,7 @@ public class Demo{
         // A.hello_static();
         // Asub.hello_static();
 
-        A child_through_parent = new Asub();
+        Asub child_through_parent = new Asub();
         if (child_through_parent instanceof A) {
             System.out.println("it is instance of A");
         }
