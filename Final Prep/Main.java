@@ -9,5 +9,13 @@ public class Main {
         s1.setName("Adnan");
         System.out.println(s1.getName());
         System.out.println(s1.toString());
+
+        Student s2 = new Student("Bashir");
+        Student s3 = new Student("Subhan");
+        Student s4 = new Student("Ibrahim");
+        Student s5 = new Student("Taha");
+
+
+        System.out.println(Student.getCount());
     }
 }
