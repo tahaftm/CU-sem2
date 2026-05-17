@@ -9,7 +9,7 @@ public class Student extends School{
     }
 
     public Student(String name){
-        this(name, 12);
+        this(name, 0);
         System.out.println("I am inside the constructor of Student with name");
     }
     public Student(int grade){
@@ -32,4 +32,5 @@ public class Student extends School{
     public void setName(String newName){
         this.name = newName;
     }
+
 }
